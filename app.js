@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-import userRoutes from "../src/resources/user/routes/routes.js";
+import userRoutes from "../ZaracAssesment/resources/user/routes/routes.js";
 import morgan from "morgan";
 import cors from "cors";
 
