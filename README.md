@@ -48,7 +48,7 @@ npm install
 3. Add a .env file with the database connection URI. You can do this by creating a file named .env in the root directory of the project and adding the following line
 
 ```
-MONGO_URI = mongodb+srv://kaygrammer:smVsw7cSuePztRA@nodeexpressprojects.leqxzxo.mongodb.net/trackbudi?retryWrites=true&w=majority
+MONGO_URI = mongodb+srv://kaygrammer:smVsw7cSuePztRA@nodeexpressprojects.leqxzxo.mongodb.net/zaracAssesment?retryWrites=true&w=majority
 ```
 
 4. Start the application:
@@ -62,4 +62,10 @@ npm run dev
 
 ```
 Make sure to replace `your-mongodb-connection-uri` with the actual connection URI of your MongoDB database. This will ensure that users can easily set up and run the application locally.
+```
+
+6. Kindly find the documentation with example requests and responses at:
+
+```
+https://documenter.getpostman.com/view/15577989/2sA3JNaLR4
 ```
