@@ -59,10 +59,7 @@ npm run dev
 
 5. Open your web browser and navigate to `http://localhost:4000` to access the app root.
 
-## Support
 
 ```
 Make sure to replace `your-mongodb-connection-uri` with the actual connection URI of your MongoDB database. This will ensure that users can easily set up and run the application locally.
 ```
-
-## License
