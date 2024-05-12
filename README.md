@@ -35,20 +35,20 @@ To install and run App locally, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/trackbudi/trackbudiBE.git
+git clone https://github.com/kaygrammer/ZaracAssesment.git
 ```
 
 2. Install dependencies:
 
 ```
-cd trackbudi
+cd ZaracAssesment
 npm install
 ```
 
-3. Set up the MongoDB connection. Update the database configuration file with your MongoDB connection details:
+3. Add a .env file with the database connection URI. You can do this by creating a file named .env in the root directory of the project and adding the following line
 
 ```
-src/config/database.js
+MONGO_URI = mongodb+srv://kaygrammer:smVsw7cSuePztRA@nodeexpressprojects.leqxzxo.mongodb.net/trackbudi?retryWrites=true&w=majority
 ```
 
 4. Start the application:
@@ -57,16 +57,12 @@ src/config/database.js
 npm run dev
 ```
 
-5. Open your web browser and navigate to `http://localhost:4000` to access TrackBudi.
+5. Open your web browser and navigate to `http://localhost:4000` to access the app root.
 
 ## Support
 
-If you encounter any issues or have any questions, feel free to reach out to our support team at support@trackbudi.com.
+```
+Make sure to replace `your-mongodb-connection-uri` with the actual connection URI of your MongoDB database. This will ensure that users can easily set up and run the application locally.
+```
 
 ## License
-
-TrackBudi is released under the .
-
----
-
-Thank you for considering TrackBudi for your logistics management needs. We strive to provide a seamless and user-friendly experience to streamline your logistics workflows.
